@@ -24,11 +24,12 @@ This Python project utilizes OpenCV and NumPy to perform skin color detection in
 
 2. **Installation**:
    ```bash
-   pip install opencv-python numpy```
+   pip install opencv-python numpy
    
 3. **Adjustments**;
 	- Modify the color space thresholds in the code to fine-tune skin color detection.
 	- To use it with your own video, modify the following line in the code:
 	```python
-	cap = cv2.VideoCapture("test.mp4")```
+ 	cap = cv2.VideoCapture("test.mp4")
+ 	```
 	Replace "test.mp4" with the path to your video file. Alternatively, use 0 to access your camera.
